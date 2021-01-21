@@ -1,15 +1,6 @@
 .container {
     max-width: map-get($container-widths, xs);
-    @include media-breackpoint-up(lg) {
-        font-size: 32px;
-    }
-    @include media-breackpoint-up(md) {
-        font-size: 24px;
-    }
-    @include media-breackpoint-up(sm) {
-        font-size: 18px;
-    }
-    @include media-breackpoint-up(xs) {
-        font-size: 14px;
-    }
+    @include media-breakpoint-up(xs) {
+		max-width: 576px;
+    }   
 }
