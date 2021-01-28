@@ -1,6 +1,0 @@
-.container {
-    max-width: map-get($container-widths, xs);
-    @include media-breakpoint-up(xs) {
-		max-width: 576px;
-    }   
-}

@@ -1,9 +1,18 @@
 body {
   font-family: $primary-font;
+  background: #fff;
 }
-
 button {
-	background: none;
   cursor: pointer;
   border: none;
 } 
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+                                              

@@ -1,0 +1,51 @@
+.main-nav-container {
+  background: $secondary-color;
+	margin-top: 45px;
+	@include media-breakpoint-up(sm) {
+    height: 40px;
+	}
+	@include media-breakpoint-up(md) {
+		height: 60px;
+	}
+	@include media-breakpoint-up(lg) {
+    height: 80px;
+	}
+}
+.main-nav-container__nav-item {
+	line-height: 1.9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.main-nav-container__nav-link {
+  color: $white-text;
+	font-size: 14px;
+  &:hover {
+    color: $primary-color;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 10px;
+	}
+	@include media-breakpoint-up(md) {
+    font-size: 12px;
+	}
+	@include media-breakpoint-up(xl) {
+    font-size: 14px;
+  }
+}
+.main-nav-container__nav-item {
+	text-align: center;
+  @include media-breakpoint-up(sm) {
+	display: flex;
+	justify-content: space-around;
+	padding: 5px;
+	}
+	@include media-breakpoint-up(md) {
+		justify-content: space-around;
+		padding-top: 12px;
+	}
+	@include media-breakpoint-up(lg) {
+		justify-content: space-between;
+		padding-top: 22px;
+		padding-right: 35px;
+	}
+}

@@ -1,11 +1,13 @@
+@import './bootstrap';
 @import './vars';
-@import './mixins';
-@import './reset';
 @import './custom_reset';
-@import './grid';
 @import './common';
-@import './nav';
 @import './buttons';
 @import './hero_section';
 @import './typography';
 @import './icomoon';
+@import './header';
+@import './header-logo';
+@import './main-nav';
+@import './main-button';
+@import './package-summery-section';
