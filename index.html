@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BastTourPlan</title>
-	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Nunito+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./styles/main.css">
@@ -47,16 +46,18 @@
 					<div class="main-container__form col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
 						<form class="main-container__main-form ">
 							<input type="text" class="main-container__main-form__main-input" placeholder="Search Location">
-							<button class="main-container__main-form__main-button" aria-label="search"></button>
+							<button class="main-container__main-form__main-button" aria-label="search">
+								<span class="ico-search">
+									<span class="icon-search"></span>
+								</span>	
+							</button>
 						</form>							
-							<span class="ico-search">
-								<span class="icon-search"></span>
-							</span>							
+												
 					</div>
 					<div class="main-container__ico-shopping offset-xl-2 col-xl-1 col-lg-1 offset-lg-1 col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-xs-1 offset-xs-4">
-						<span class="main-container__ico-shopping-cart">
-						<span class="icon-shopping-cart"></span>
-						</span>
+						<a href=""><span class="main-container__ico-shopping-cart">
+							<span class="icon-shopping-cart"></span>
+							</span></a>
 						<span class="main-container__ico-shopping-cart__numeral">2</span>
 					</div>
 					<div class="main-container__button-user col-xl-2 col-lg-2 col-md-3 col-sm-3">
@@ -136,10 +137,10 @@
 								srcset="./images/main-photo-lg.png 1x"
 								type="image/png">
 								<source media="(min-width: 576px)"
-								srcset="./images/main-photo-smm.png 1x"
+								srcset="./images/main-photo-sm.png 1x"
 								type="image/png">
 								<source media="(min-width: 375px)"
-								srcset="./images/main-photo-smm.png 1x"
+								srcset="./images/main-photo-sm.png 1x"
 								type="image/png">
 								<img src="./images/main-photo.png" class="hero-section__img-hotel-hilton" alt="grand hotel hilton">
 							</picture>
@@ -257,12 +258,625 @@
 								10th March - 30th April 2020
 							</li>
 						</ul>
-						<span>* Valid until 30 April 2020</span>
-					</div>						
+						<div class="plain-item-second__valid-until-text">* Valid until 30 April 2020</div>
+					</div>					
+					
+					<div class="col-xl-12">
+						<div class="package-summery-details-container">
+							<div class="package-summery-details__h3-text">Package Summery Details</div>
+							<div class="package-summery-details__flex">
+								<div class="purchase-inlusions-container">
+									<h4 class="purchase-inlusions__h4-text">Purchase Inclusions</h4>
+									<ul class="plain-third-list">
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Room as per selection
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Half Board or All Inclusive Meal Plan
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Complimentary Land & Water activities
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Child Under 11 years old stays free
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Free Wi-Fi
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Free Secure Parking
+										</li>
+									</ul>
+								</div>
+
+									<div class="complimantary-land-container">
+										<h4 class="purchase-inlusions__h4-text">Complimentary Land Based Activities</h4>
+										<ul class="plain-third-list">
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Gym
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Beach Volley
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Table tennis
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Soccer balls
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Yoga
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Unlimited access to driving range
+											</li>
+										</ul>
+									</div>
+
+									<div class="complimantary-water-container">
+										<h4 class="purchase-inlusions__h4-text">Complimentary Water Based Activities</h4>
+										<ul class="plain-third-list">
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Water skiing
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Windsurfing
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Pedal boats
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Kayaking
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Aqua Gym
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Glass bottom boat trips
+											</li>
+										</ul>
+									</div>
+									<div class="meal-plan-container">
+										<h4 class="purchase-inlusions__h4-text">Meal Plan Available</h4>
+										<ul class="plain-third-list">
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Half Board
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												All Inclusive
+											</li>
+										</ul>
+									</div>	
+									<div class="entertainment-container">										<h4 class="purchase-inlusions__h4-text">Entertainment</h4>
+										<ul class="plain-third-list">
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												Live music
+											</li>
+											<li class="plain-third-item">
+												<span class="plain-list-ico-arrow-down">
+													<span class="icon-arrow-down-sm"></span>
+												</span>
+												DJ & Mauritian Dance Show
+											</li>
+										</ul>
+									</div>
+									<div class="check-in-container">
+									<h4 class="purchase-inlusions__h4-text">Check In & Check Out</h4>
+									<ul class="plain-third-list">
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Check In Time 14:00
+										</li>
+										<li class="plain-third-item">
+											<span class="plain-list-ico-arrow-down">
+												<span class="icon-arrow-down-sm"></span>
+											</span>
+											Check Out Time 11:00
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>				
+			</div>
+		</div>
+		<!-- OTHER PACKAGE SECTION  -->
+		<div class="container">
+			<h2 class="other-package-text">OTHER PACKAGE</h2>
+			<div class="plain-list-hotel">
+				<div class="hotel-bluehaven-bg-container col-md-6 col-lg-4">
+					<button class="plain-list-hotel__button">Flash Offer</button>
+				</div>
+				<div class="card-blue-haven col-md-6 col-lg-4">
+					<span class="card-blue-haven__ico-star">
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+					</span>
+					<h4 class="hotel-blue-haven-text">Hotel Blue Haven</h4>
+					<p class="card-blue-haven__p">Aute quis duis excepteur excepteur ipsum 
+						cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit
+						ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur 
+						excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. 
+						Ipsum est fugiat velit ea ullamco do
+					</p>
+					<div class="icoloc-text-flex">
+						<span class="ico-loc">
+							<span class="icon-map-pin"></span>
+						</span>
+						<span class="text-1749">1749 Wheeler Ridge  Delaware</span>
+					</div>
+					<div class="icouser-text-flex">
+						<span class="ico-use">
+							<span class="icon-user"></span>
+						</span>
+						<span class="guest-text">2 x Guests</span>
+					</div>
+					<div class="icohome-text-flex">
+						<span class="ico-home-2">
+							<span class="icon-home"></span>
+						</span>
+						<span class="room-text">1 x Room</span>
+					</div>
+					<span class="strike-text">
+						<s>$ 10,500</s>
+					</span>
+					<div class="price-button-container">
+						<span class="price-button-container__price">$ 8,500</span>
+						<button class="price-button-container__button">Book Now</button>
+					</div>
+				</div>
+				<!-- BELLE MARE CONTAINER  -->
+				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
+					<div class="hotel-belle-mare-bg-container">
+						<button class="hotel-belle-mare-container__button">flash Offer</button>
+					</div>
+					<div class="hotel-belle-mare-container__item">
+						<h4 class="belle-mare-text">LUX* Belle Mare</h4>
+						<div class="icoloc-belle-mare">
+							<span class="ico-loc">
+								<span class="icon-map-pin"></span>
+							</span>
+							<span class="text-1749">1749 Wheeler Ridge  Delaware</span>
+						</div>
+						<div class="icouser-text-flex">
+							<span class="ico-use">
+								<span class="icon-user"></span>
+							</span>
+							<span class="guest-text">2 x Guests</span>
+						</div>
+						<div class="belle-mare__icohome-text-flex">
+							<span class="ico-home-2">
+								<span class="icon-home"></span>
+							</span>
+							<span class="room-text">1 x Room</span>
+						</div>
+						<span class="strike-text">
+							<s>$ 8,500</s>
+						</span>
+						<div class="price-button-container">
+							<span class="price-button-container__price">$ 3,000</span>
+							<button class="price-button-container__button">Book Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- WHITE PALACE  -->
+				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
+					<div class="white-palace-bg-container">
+						<button class="hotel-belle-mare-container__button">flash Offer</button>
+					</div>
+					<div class="hotel-belle-mare-container__item">
+						<h4 class="belle-mare-text">White Palace</h4>
+						<div class="icoloc-belle-mare">
+							<span class="ico-loc">
+								<span class="icon-map-pin"></span>
+							</span>
+							<span class="text-1749">1749 Wheeler Ridge  Delaware</span>
+						</div>
+						<div class="icouser-text-flex">
+							<span class="ico-use">
+								<span class="icon-user"></span>
+							</span>
+							<span class="guest-text">2 x Guests</span>
+						</div>
+						<div class="belle-mare__icohome-text-flex">
+							<span class="ico-home-2">
+								<span class="icon-home"></span>
+							</span>
+							<span class="room-text">1 x Room</span>
+						</div>
+						<span class="strike-text">
+							<s>$ 10,500</s>
+						</span>
+						<div class="price-button-container">
+							<span class="price-button-container__price">$ 9,500</span>
+							<button class="price-button-container__button">Book Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- LUXURY PLACE  -->
+				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
+					<div class="luxury-place-bg-container">
+						<button class="hotel-belle-mare-container__button">flash Offer</button>
+					</div>
+					<div class="hotel-belle-mare-container__item">
+						<h4 class="belle-mare-text">White Palace</h4>
+						<div class="icoloc-belle-mare">
+							<span class="ico-loc">
+								<span class="icon-map-pin"></span>
+							</span>
+							<span class="text-1749">1749 Wheeler Ridge  Delaware</span>
+						</div>
+						<div class="icouser-text-flex">
+							<span class="ico-use">
+								<span class="icon-user"></span>
+							</span>
+							<span class="guest-text">2 x Guests</span>
+						</div>
+						<div class="belle-mare__icohome-text-flex">
+							<span class="ico-home-2">
+								<span class="icon-home"></span>
+							</span>
+							<span class="room-text">1 x Room</span>
+						</div>
+						<span class="strike-text">
+							<s>$ 4,500</s>
+						</span>
+						<div class="price-button-container">
+							<span class="price-button-container__price">$ 2,500</span>
+							<button class="price-button-container__button">Book Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- HOTEL FIVE STAR  -->
+				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
+					<div class="five-star-bg-container">
+						<button class="hotel-belle-mare-container__button">flash Offer</button>
+					</div>
+					<div class="hotel-belle-mare-container__item">
+						<h4 class="belle-mare-text">White Palace</h4>
+						<div class="icoloc-belle-mare">
+							<span class="ico-loc">
+								<span class="icon-map-pin"></span>
+							</span>
+							<span class="text-1749">1749 Wheeler Ridge  Delaware</span>
+						</div>
+						<div class="icouser-text-flex">
+							<span class="ico-use">
+								<span class="icon-user"></span>
+							</span>
+							<span class="guest-text">2 x Guests</span>
+						</div>
+						<div class="belle-mare__icohome-text-flex">
+							<span class="ico-home-2">
+								<span class="icon-home"></span>
+							</span>
+							<span class="room-text">1 x Room</span>
+						</div>
+						<span class="strike-text">
+							<s>$ 6,500</s>
+						</span>
+						<div class="price-button-container">
+							<span class="price-button-container__price">$ 3,500</span>
+							<button class="price-button-container__button">Book Now</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- WHAT PEOPLE THINGS ABOUT US  -->
+		<div class="about-us-contnainer">
+			<div class="container">
+				<h2 class="about-us-contnainer__h2-text">WHAT PEOPLE THINGS ABOUT US</h2>
+				<div class="reviews-container">
+					<img src="./images/megane-fox.png" alt="Photo Megane Fox" class="reviews-container__img">
+					<div class="people-name">Megane Fox</div>
+					<div class="reviews-date">Stayed 18 Nov, 2019</div>
+					<span class="about-us-contnainer__ico-star">
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+						<span class="icon-star-gold"></span>
+					</span>
+					<div class="arrow-container-flex">
+					<span class="ico-arrow-left">
+						<span class="icon-arrow-left"></span>
+					</span>
+					<span class="ico-arrow-right">
+						<span class="icon-arrow-right"></span>
+					</span>
+				</div>
+					<p class="reviews-text">It was very nice hotel with cleanliness.
+						Staff behavior was good and polite. They welcome us very well. 
+						Issue was only that Lift was not in working and we were allotted 
+						to 3rd floor and amenities articles were in corner of gallery which 
+						were giving bad feeling. Breakfast was good and support of the staff 
+						was also very nice. Location is not good as per atmosphere, it is very 
+						nearby most of the popular places but self location in a narrow street 
+						is not good. Overall it was a good experience and could recommend. 
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- NEWSLETTER SECTION  -->
+		<div class="newsletter-container">
+			<div class="container">
+				<div class="newsletter-container__flex">
+					<div class="new-sletter-container__main-text">subscribe to our
+						<br><span class="fs-36">NEWSLETTER</span>
+					</div>
+					<form class="newsletter-container__form">
+						<input class="newsletter-container__input" type="text" placeholder="Your email address">
+						<button class="newsletter-container__form__button">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- OTHER ACTIVITIES SECTION  -->
+		<div class="other-activities-container">
+			<div class="container">
+				<h3 class="other-activities-container__h3-text">
+					OTHER ACTIVITIES
+				</h3>
+				<div class="row">
+					<div class="coriuos-container col-lg-3">
+						<h4 class="other-activities-container__h4-text">The curious corner of chamarel</h4>
+						<button class="other-activities-container__button">Book Now</button>
+					</div>
+					<div class="gymkhana-container col-lg-3">
+						<h4 class="other-activities-container__h4-text">Gymkhana club golf course</h4>
+						<button class="other-activities-container__button">Book Now</button>
+					</div>
+					<div class="tamarind-container col-lg-3">
+						<h4 class="other-activities-container__h4-text">Tamarind falls hiking
+							trip - full day							
+						</h4>
+						<button class="other-activities-container__button">Book Now</button>
+					</div>
+					<div class="blue-marine-container col-lg-3">
+						<h4 class="other-activities-container__h4-text">The blue marine discovery
+							quest
+						</h4>
+						<button class="other-activities-container__button">Book Now</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</main>
-	
+	<footer>
+		<div class="footer-section">
+			<div class="container">
+				<div class="plain-footer-container">
+					<div class="footer-logo-container">
+						<a href="#" class="footer-logo-container__link">
+							<img src="./images/logo-footer.png" alt="Logo">
+						</a>
+					</div>
+					<div class="all-categories-container">
+						<h4 class="footer-h4-text">ALL CATEGORIES</h4>
+						<ul class="plain-footer-list">
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">All Deals</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Hotels</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Activities</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Spa Packages</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Hotel Day Packages</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Restaurants</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Fitness</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Rodrigues</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="additional-information-container">
+						<h4 class="footer-h4-text">ADDITIONAL INFORMATION</h4>
+						<ul class="plain-footer-list">
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">About Us</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Contact Us</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">How does it work?</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Frequently Asked program</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Deals.mu loyatly program</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Promote your Bisiness on BTP</a>
+							</li>
+						</ul>
+						<div class="social-container-flex">
+							<h4 class="footer-h4__social-network-text">SOCIAL NETWORK</h4>
+							<div class="footer-ico-size">
+								<a href="" class="footer-ico-color footer-ico-padding">
+									<span class="icon-facebook"></span>
+								</a>
+								<a href="" class="footer-ico-color footer-ico-padding">
+									<span class="icon-youtube"></span>
+								</a>
+								<a href="" class="footer-ico-color footer-ico-padding">
+									<span class="icon-instagram"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="legal-informaion-container">
+						<h4 class="footer-h4-text">LEGAL INFORMATION</h4>
+						<ul class="plain-footer-list">
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Term & Conditions</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Disclaimer</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Cancellation policy</a>
+							</li>
+							<li class="plain-footer__item">
+								<a href="#" class="plain-footer__link">Privacy</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<address class="col-lg-6">
+						<div class="contact-details-container">
+							<h4 class="contact-details-container__h4-text">CONTACT DETAILS</h4>
+							<p class="contact-details-container__p-text">
+								Feel free to contact us by phone, email or by our contact form
+							</p>
+							<div class="contact-details-container__location">
+								<span class="contact-details-container__ico-loc-footer">
+									<span class="icon-location-footer"></span>
+								</span>
+								<span class="contact-details-container__ico-loc-footer__address">
+									9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States
+								</span>
+							</div>
+							<div class="contact-details-container__phone">
+								<span class="contact-details-container__ico-phone-footer">
+									<span class="icon-phone-footer"></span>
+								</span>
+								<ul class="contact-details-container__phone__contact">
+									<li>Tel (business hours) : 269 1500</li>
+									<li>Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</li>
+									<li>Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</li>
+								</ul>
+							</div>
+							<div class="contact-details-container__mail">
+								<span class="ico-mail-footer">
+									<span class="icon-mail-footer"></span>
+								</span>
+								<span class="contact-details-container__mail__mail-address">
+									cherly.lawson@example.com
+								</span>
+							</div>
+						</div>
+					</address>
+					<div class="send-us-message-container col-lg-6">
+						<h4 class="send-us-message-container__h4-text">SEND US A NESSAGE</h4>
+						<form class="form-footer">
+							<div class="col-lg-12 row col-md-8 input-footer-container">							
+								<input type="text" placeholder="Your Full Name*" class="form-footer__input-name">
+								<input type="text" placeholder="Phone Number*" class="form-footer__input-phone">
+							</div>
+							<textarea name="text" rows="5" class="form-footer__textarea col-lg-12 col-md-8" placeholder="Message"></textarea>
+							<div class="fotter-button-flex col-lg-12 col-md-8">
+								<button class="form-footer__button row" type="submit">Send</button>
+								<div class=" text-required">* Required Fields</div>
+							</div>
+						</form>						
+					</div>
+				</div>
+				<div class="company-policy-container">
+					<div class="company-container-list">	
+						<div class="footer-container-link">
+							<a href="" class="company-policy-container__link">Declaimer</a>
+							<a href="" class="company-policy-container__link">Declaimer of use</a>
+							<a href="" class="company-policy-container__link">Cancellation policy</a>
+						</div>
+						<div class="paycard-container">
+							<img src="./images/pay-footer.png" alt="paycard">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	<script src="./bootstrap/js/dist/util.js"></script>
+	<script src="./bootstrap/js/dist/carousel.js"></script>	 -->
 </body>
 </html>

@@ -1,0 +1,296 @@
+.other-package-text {
+  padding-top: 100px;
+  text-align: center;
+	font-size: 36px;
+	padding-bottom: 65px;
+	@include media-breakpoint-down(sm) {
+		text-align: start;
+	}
+	@include media-breakpoint-down(xs) {
+		font-size: 30px;
+		text-align: center;
+	}
+}
+.hotel-bluehaven-bg-container {
+	width: 100%;
+	position: relative;
+	background: url("../images/hotel-blue-haven.png");
+	height: 500px;
+	background-size: cover;
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+		border-radius: 4px;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 70%;
+	}
+}
+.plain-list-hotel__button {
+	position: absolute;
+	left: 0%;
+  color: $white-text;
+	background: $primary-color;
+	font-size: 12px;
+	padding: 8px 12px;
+	border-radius: 0px 4px 4px 0px;
+	margin-top: 25px;
+}
+.plain-list-hotel {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+		justify-content: center;
+	}
+	@include media-breakpoint-down(xs) {
+		margin-left: 70px;
+	}
+}
+.card-blue-haven {
+	width: 100%;	
+	background: $secondary-color;
+	border-radius: 0px 8px 8px 0px;
+	padding-top: 30px;
+	padding-left: 45px;
+	padding-bottom: 35px;
+	padding-right: 20px;
+	max-height: 500px;
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+		border-radius: 8px;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 75%;
+	}
+}
+.card-blue-haven__ico-star {
+	font-size: 6px;
+	color: #F2994A;
+}
+.hotel-blue-haven-text {
+	font-size: 18px;
+	color: $white-text;
+	@include media-breakpoint-down(xs) {
+		font-size: 16px;
+	}
+}
+.card-blue-haven__p {
+	font-size: 14px;
+	padding-top: 20px;
+	color: $white-text;
+	@include media-breakpoint-down(lg) {
+		font-size: 13px;
+	}
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+	}
+}
+.icoloc-text-flex {
+	color: $white-text;
+	padding-top: 30px;
+		@include media-breakpoint-down(lg) {
+			padding-top: 10px;
+		}
+		@include media-breakpoint-down(xs) {
+			padding-top: 10px;
+		}
+}
+.ico-loc {
+	font-size: 12px;
+	@include media-breakpoint-down(xs) {
+	font-size: 10px;
+	}
+}
+.text-1749 {
+	font-size: 12px;
+	padding-left: 15px;
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+		}
+}
+.icouser-text-flex {
+	color: $white-text;
+}
+.ico-use {
+	font-size: 12px;
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+		}
+}
+.guest-text {
+	font-size: 12px;
+	padding-left: 15px;
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+		}
+}
+.icohome-text-flex{
+	color: $white-text;
+	padding-bottom: 35px;
+		@include media-breakpoint-down(xs) {
+			padding-bottom: 5px;
+		}
+}
+.ico-home-2 {
+	font-size: 12px;
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+		}
+}
+.room-text {
+	font-size: 12px;
+	padding-left: 15px;
+}
+.strike-text {
+	padding-top: 40px;
+	font-size: 14px;
+	color: $white-text;
+	@include media-breakpoint-down(xs) {
+		font-size: 10px;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+}
+.price-button-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	line-height: 15px;
+	@include media-breakpoint-down (xs) {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+.price-button-container__price {
+	font-size: 24px;
+}
+.price-button-container__price {
+	font-size: 24px;
+	color: $white-text;
+	@include media-breakpoint-down (xs) {
+		font-size: 20px;
+	}
+}
+.price-button-container__button {
+	font-size: 14px;
+	background: $primary-color;
+	color: $white-text;
+	padding: 12px 28px;
+	border-radius: 4px;
+	@include media-breakpoint-down (xs) {
+		margin-top: 20px;
+		padding: 10px 25px;
+	}
+}
+
+// LUX*BELLE MARE 
+.hotel-belle-mare-container {
+	@include media-breakpoint-down(md) {
+		margin-top: 30px;
+	}
+}
+.hotel-belle-mare-bg-container {
+	background-image: url("../images/belle-mare.png");
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border-radius: 8px 8px 0px 0px;		
+		@include media-breakpoint-down(sm) {
+			width: 70%;
+		}
+		@include media-breakpoint-down(xs) {
+			width: 75%;
+		}
+}
+.hotel-belle-mare-container__button {
+	position: absolute;
+	color: $white-text;
+	background: $primary-color;
+	font-size: 8px;
+	padding: 5px 10px;
+	border-radius: 0px 4px 4px 0px;
+	margin-top: 25px;
+}
+.hotel-belle-mare-container__item {
+	background: $secondary-color;
+	border-radius: 0px 0px 8px 8px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	height: 250px;
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 75%;
+		height: 100%;
+	}
+}
+.belle-mare-text {
+	font-size: 18px;
+	color: $white-text;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	@include media-breakpoint-down(xs) {
+		font-size: 16px;
+	}
+}
+.icoloc-belle-mare {
+	font-size: 12px;
+	color: $white-text;
+}
+.belle-mare__icohome-text-flex {
+	font-size: 12px;
+	color: $white-text;
+	padding-bottom: 25px;
+}
+// WHITE PALACE CONTAINER 
+.white-palace-bg-container {
+	background: url("../images/white-palace.png");
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 30px;
+	@include media-breakpoint-down(md) {
+		margin-top: 0px;
+	}
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 75%;
+	}
+}
+// LUXURY PLACE 
+.luxury-place-bg-container {
+	background: url("../images/luxury-place.png");
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 30px;
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 75%;
+	}
+}
+// HOTEL FIVE STAR 
+.five-star-bg-container {
+	background: url("../images/five-star.png");
+	width: 100%;
+	height: 250px;
+	position: relative;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 30px;
+	@include media-breakpoint-down(sm) {
+		width: 70%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 75%;
+	}
+}

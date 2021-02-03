@@ -1,3 +1,6 @@
+.package-summary-container {
+	padding-bottom: 10px;
+}
 .package-summary-container__h2-text {
 	color: $gray-text;
 	font-size: 24px;
@@ -20,10 +23,16 @@
 		@include media-breakpoint-down(lg) {
 			font-size: 11px;
 		}
+		@include media-breakpoint-down (sm) {
+			font-size: 8px;
+	}
+	@include media-breakpoint-down (xs) {
+		display: flex;
+		flex-direction: column;
+	}
 }
 .plain-item {
-	padding: 10px;
-	
+	padding: 10px;	
 }
 .plain-list-ico {
 	margin-right: 15px;
@@ -32,10 +41,7 @@
 	border-radius: 50%;
 	font-size: 8px;
 	padding-left: 2px;
-
 }
-
-
 .package-summary-container__offer-details-text {
 	font-size: 14px;
   color: $white-text;
@@ -58,6 +64,9 @@
 .plain-list-second li:nth-child(2) {
 	font-size: 14px;
 	padding-right: 10px;
+	@include media-breakpoint-down (sm) {
+		font-size: 10px;
+	}
 }
 .offer-details-container-flex {
 	display: flex;
@@ -72,8 +81,60 @@
 	font-size: 8px;
 	margin-top: 5px;
 	padding-left: 2px;
+		@include media-breakpoint-down (md) {
+			width: 18px;
+		}
+		@include media-breakpoint-down (sm) {
+			width: 30px;
+		}
 }
 .plain-list-ico-calendar {
 	font-size: 15px;
 	padding-right: 20px;
+	@include media-breakpoint-down (sm) {
+		font-size: 12px;
+		padding-right: 8px;
+	}
+}
+.plain-item-second__valid-until-text {
+	font-size: 10px;
+	padding-top: 30px;
+	padding-left: 75px;
+}
+
+// PACKAGE SUMMERY DETAILS 
+
+.package-summery-details-container {
+	margin-top: 50px;
+}
+.package-summery-details__h3-text {
+	font-size: 14px;
+  color: $white-text;
+  background: $secondary-color;
+  padding-left: 24px;
+  padding-top: 15px;
+	height: 50px;
+	width: 100%;
+}
+.purchase-inlusions__h4-text {
+	font-size: 13px;
+	color: $primary-color;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+.plain-third-item {
+	font-size: 12px;
+	padding: 10px;
+}
+.package-summery-details__flex {
+	display: grid;
+	grid-template-columns: 33.33333% 33.33333% 33.33333%;
+		@include media-breakpoint-down(md) {
+			display: flex;
+			flex-wrap:wrap;
+		}
+		@include media-breakpoint-down(sm) {
+			flex-direction: column;
+		}
 }

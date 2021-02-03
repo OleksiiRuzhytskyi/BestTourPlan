@@ -1,0 +1,146 @@
+.other-activities-container {
+	@include media-breakpoint-down(xs) {
+		text-align: center;
+	}
+}
+.other-activities-container__h3-text {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  color: #000;
+}
+.coriuos-container {
+	position: relative;
+	background: url("../images/curious-corner.png");
+	max-width: 255px;
+	max-height: 255px;
+	border-radius: 6px;
+	@include media-breakpoint-down(lg) {
+		max-width: 230px;
+	}
+	@include media-breakpoint-down(md) {
+		max-width: 255px;
+	}
+	@include media-breakpoint-down(xs) {
+		max-width: 255px;
+		margin-left: 70px;
+	}
+}
+.coriuos-container::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 6px;
+	background: linear-gradient(180deg, rgba(196, 196, 196, 0.136) 35%, #0a223d51 99%);
+}
+.gymkhana-container {
+	background: url("../images/gymkhana-club.png");
+	max-width: 255px;
+	max-height: 255px;
+	margin-left: 30px;
+	border-radius: 6px;
+		@include media-breakpoint-down(lg) {
+			max-width: 230px;
+			margin-left: 10px;
+		}
+		@include media-breakpoint-down(md) {
+			max-width: 255px;
+			margin-left: 30px;
+		}
+		@include media-breakpoint-down(xs) {
+			max-width: 255px;
+			margin-left: 70px;
+			margin-top: 30px;
+		}
+}
+.gymkhana-container::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 6px;
+	background: linear-gradient(180deg, rgba(196, 196, 196, 0.136) 35%, #0a223d51 99%);
+}
+.tamarind-container {
+	background: url("../images/tamarind-falls.png");
+	max-width: 255px;
+	max-height: 255px;
+	margin-left: 30px;
+	border-radius: 6px;
+	@include media-breakpoint-down(lg) {
+		max-width: 230px;
+		margin-left: 10px;
+	}
+	@include media-breakpoint-down(md) {
+		max-width: 255px;
+		margin-left: 0;
+		margin-top: 40px;
+	}
+	@include media-breakpoint-down(xs) {
+		max-width: 255px;
+		margin-left: 70px;
+		margin-top: 30px;
+	}
+}
+.tamarind-container::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 6px;
+	background: linear-gradient(180deg, rgba(196, 196, 196, 0.136) 35%, #0a223d51 99%);
+}
+.blue-marine-container {
+	background: url("../images/blue-marine.png");
+	max-width: 255px;
+	max-height: 255px;
+	margin-left: 30px;
+	border-radius: 6px;
+	@include media-breakpoint-down(lg) {
+		max-width: 230px;
+		margin-left: 10px;
+	}
+	@include media-breakpoint-down(md) {
+		max-width: 255px;
+		margin-left: 30px;
+		margin-top: 40px;
+	}
+	@include media-breakpoint-down(xs) {
+		max-width: 255px;
+		margin-left: 70px;
+		margin-top: 30px;
+	}
+}
+.blue-marine-container::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 6px;
+	background: linear-gradient(180deg, rgba(196, 196, 196, 0.136) 35%, #0a223d51 99%);
+}
+.other-activities-container__h4-text {
+	padding-top: 140px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: $white-text;
+}
+.other-activities-container__button {
+	background: $primary-color;
+	color: $white-text;
+	font-size: 12px;
+	padding: 7px 20px;
+	margin-left: 26px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
