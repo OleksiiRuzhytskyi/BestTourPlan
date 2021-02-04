@@ -34,6 +34,9 @@
 	padding: 8px 12px;
 	border-radius: 0px 4px 4px 0px;
 	margin-top: 25px;
+	&:hover {
+		background-color: green;
+	}
 }
 .plain-list-hotel {
 	display: flex;
@@ -183,6 +186,9 @@
 		margin-top: 20px;
 		padding: 10px 25px;
 	}
+	&:hover {
+		background: green;
+	}
 }
 
 // LUX*BELLE MARE 
@@ -212,6 +218,9 @@
 	padding: 5px 10px;
 	border-radius: 0px 4px 4px 0px;
 	margin-top: 25px;
+	&:hover {
+		background: green;
+	}
 }
 .hotel-belle-mare-container__item {
 	background: $secondary-color;

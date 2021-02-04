@@ -21,7 +21,7 @@
 	@include media-breakpoint-down(xs) {
 		font-size: 20px;
 		flex-direction: column;
-		text-align: center;
+		align-items: center;
 	}
 }
 .main-button-container__button-items-flex {
@@ -30,23 +30,18 @@
 	align-items: center;
 	padding-top: 16px;
 }
-.main-button-container__link {
-	@include media-breakpoint-down(xs) {
-		padding-top: 10px;
-	}
+// .main-button-container__link {
+// 	@include media-breakpoint-down(xs) {
+// 		padding-top: 10px;
+// 	}
+// }
+.main-button-container__button-action {
+	color: $primary-color;
+	border-bottom: $primary-color solid;
 }
-.main-button-container__link-action {
-	color: $primary-color !important;
-}
-.main-button-container__link-underline {
-	width: 150px;
-	height: 4px;
-	background: $primary-color;
-	@include media-breakpoint-down(md) {
-		width: 100px;
+.main-button-container__button {
+	&:hover {
+		color: $primary-color;
+	border-bottom: $primary-color solid;
 	}
-	@include media-breakpoint-down(sm) {
-		width: 180px;
-	}
-	
 }

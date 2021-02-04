@@ -3,8 +3,12 @@
 ::after {
   box-sizing: border-box;
 }
-
-
+input {
+  cursor: pointer;
+  &:hover {
+    background: #BDBDBD;
+  }
+}
 .fs-18 {
   font-size: 18px;
 }

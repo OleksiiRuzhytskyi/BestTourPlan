@@ -30,10 +30,17 @@
 	}
 	@include media-breakpoint-up(xl) {
     font-size: 14px;
-  }
+	}
+	&:hover {
+		color: $primary-color;
+		// border-bottom: $primary-color solid;
+	}
 }
 .main-nav-container__nav-item {
-	text-align: center;
+	@include media-breakpoint-up(xs) {
+		justify-content: center;
+		padding: 5px;
+		}
   @include media-breakpoint-up(sm) {
 	display: flex;
 	justify-content: space-around;

@@ -39,33 +39,36 @@
 			<div class="container">
 				<div class="row">
 					<div class="main-container__logo col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<a href="">
-							<img src="./images/logo.png" class="main-container__logo__img-logo__img-png" alt="logo">
+						<a href="#bestourplan" aria-label="logo">
+						<img src="./images/logo.png" class="main-container__logo__img-logo__img-png" alt="logo">
 						</a>
 					</div>
 					<div class="main-container__form col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
-						<form class="main-container__main-form ">
-							<input type="text" class="main-container__main-form__main-input" placeholder="Search Location">
+						<form class="main-container__main-form" aria-label="form">
+							<input type="text" class="main-container__main-form__main-input" placeholder="Search Location" aria-label="input">
 							<button class="main-container__main-form__main-button" aria-label="search">
 								<span class="ico-search">
 									<span class="icon-search"></span>
 								</span>	
 							</button>
-						</form>							
-												
+						</form>								
 					</div>
-					<div class="main-container__ico-shopping offset-xl-2 col-xl-1 col-lg-1 offset-lg-1 col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-xs-1 offset-xs-4">
-						<a href=""><span class="main-container__ico-shopping-cart">
-							<span class="icon-shopping-cart"></span>
-							</span></a>
-						<span class="main-container__ico-shopping-cart__numeral">2</span>
-					</div>
-					<div class="main-container__button-user col-xl-2 col-lg-2 col-md-3 col-sm-3">
-						<img class="main-container__button-user_img-name"  src="./images/human-header.png" alt="Users">
-						<button class="main-container__button-user__main-button-user">Nathan</button>						
-						<span class="main-container__button-user__ico-arrow-down">
-							<span class="icon-arrow-down"></span>
-						</span>
+					<div class="shopping-user-container-flex offset-xl-1 col-lg-3 pffset-md-1 col-md-3 col-sm-3 col-3">
+						<div class="main-container__ico-shopping offset-xl-2 col-xl-1 col-lg-1 offset-lg-1 col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-xs-1 offset-xs-4">
+							<a href="#order_basket" aria-label="order basket">
+								<span class="main-container__ico-shopping-cart">
+									<span class="icon-shopping-cart"></span>
+								</span>
+							</a>
+							<span class="main-container__ico-shopping-cart__numeral">2</span>
+						</div>
+						<div class="main-container__button-user offset-xl-3 offset-lg-4 offset-md-1 offset-sm-0">
+							<img class="main-container__button-user_img-name"  src="./images/human-header.png" alt="Users">
+							<button class="main-container__button-user__main-button-user" aria-label="button">Nathan</button>						
+							<span class="main-container__button-user__ico-arrow-down">
+								<span class="icon-arrow-down"></span>
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -75,25 +78,25 @@
 					<nav class="main-nav-container__nav">
 						<ul class="main-nav-container__nav-item">
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">ALL DEALS</a>
+								<a href="#alldeals" class="main-nav-container__nav-link" aria-label="all deals">ALL DEALS</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">HOTELS</a>
+								<a href="#hotels" class="main-nav-container__nav-link" aria-label="hotels">HOTELS</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">ACTIVITIES</a>
+								<a href="#activities" class="main-nav-container__nav-link" aria-label="activities">ACTIVITIES</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">HOTEL DAY PACKAGES</a>
+								<a href="#hoteldaypackages" class="main-nav-container__nav-link" aria-label="hotel day packages">HOTEL DAY PACKAGES</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">RESTAURANTS</a>
+								<a href="#restaurants" class="main-nav-container__nav-link" aria-label="restaurants">RESTAURANTS</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">EVENTS</a>
+								<a href="#events" class="main-nav-container__nav-link" aria-label="events">EVENTS</a>
 							</li>
 							<li class="main-nav-container__nav-list">
-								<a href="" class="main-nav-container__nav-link">RODRIGUES</a>
+								<a href="#rodrigues" class="main-nav-container__nav-link" aria-label="rodrigues">RODRIGUES</a>
 							</li>
 						</ul>
 					</nav>
@@ -114,9 +117,9 @@
 				<div class="hero-section__h1__block__flex">
 					<div class="hero-section__h1__block" >
 						<h1 class="hero-section__h1">GRAND HOTEL HILTON</h1>	
-						<button class="hero-section__button-flash-offer">Flash Offer</button>			
+						<button class="hero-section__button-flash-offer" aria-label="flash offer">Flash Offer</button>			
 					</div>
-					<button class="hero-section__h1__button-rattings">User Rattings 
+					<button class="hero-section__h1__button-rattings" aria-hidden="true">User Rattings 
 						<span class="button-rattings__4">
 							<br>4.5/
 						</span>
@@ -139,14 +142,14 @@
 								<source media="(min-width: 576px)"
 								srcset="./images/main-photo-sm.png 1x"
 								type="image/png">
-								<source media="(min-width: 375px)"
-								srcset="./images/main-photo-sm.png 1x"
+								<source media="(min-width: 320px)"
+								srcset="./images/main-photo-xs-2.png 1x"
 								type="image/png">
-								<img src="./images/main-photo.png" class="hero-section__img-hotel-hilton" alt="grand hotel hilton">
+								<img src="./images/main-photo.png" alt="grand hotel hilton" loading="lazy">
 							</picture>
 						</div>
 					</div>	
-					<div class="hero-section__price-map-container col-xl-4 col-lg-3 col-md-12 col-sm-12 col-12">
+					<div class="hero-section__price-map-container col-xl-4 col-lg-3 col-md-12">
 						<div class="hero-section__price-booking">
 							<div class="hero-section__price-booking-flex">
 								<div class="hero-section__column-left">
@@ -156,24 +159,30 @@
 									<p class="hero-section__quick-booking-text">Quick Booking</p>
 								</div>
 								<div class="hero-section__column-right">
-									<p class="hero-section__guests-text">2 x Guests</p>
-									<span class="hero-section__ico-user">
-										<span class="icon-user"></span>
-									</span>
-									<p class="hero-section__room-selection-text">1 x Room</p>
-									<span class="hero-section__ico-home">
-										<span class="icon-home"></span>
-									</span>
-									<p class="hero-section__call-12100-text">12100</p>
-									<span class="hero-section__ico-call">
-										<span class="icon-phone-call"></span>
-									</span>
+									<div class="user-ico-text-container">
+										<span class="hero-section__ico-user">
+											<span class="icon-user"></span>
+										</span>
+										<span class="hero-section__guests-text">2 x Guests</span>									
+									</div>
+									<div class="ico-home-text-container">
+										<span class="hero-section__ico-home">
+											<span class="icon-home"></span>
+										</span>
+										<span class="hero-section__room-selection-text">1 x Room</span>									
+									</div>
+									<div class="ico-call-text-container">
+										<span class="hero-section__ico-call">
+											<span class="icon-phone-call"></span>
+										</span>
+										<span class="hero-section__call-12100-text">12100</span>
+									</div>
 								</div>
 							</div>
-							<button class="hero-section__price-booking__button">View Other Options</button>
+							<button class="hero-section__price-booking__button" aria-label="view other options">View Other Options</button>
 						</div>
-						<div class="hero-section__map-address">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.4511759054126!2d35.049569468004194!3d48.46705892041686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2c253eac565%3A0xe2c4787d366f1a14!2sDnepropetrovsk%20center%20of%20primary%20medical%20and%20sanitary%20help%20%23%204%20Out-patient%20clinic%20%23%201-2!5e0!3m2!1sen!2sua!4v1611704651712!5m2!1sen!2sua" width="100%" height="100%" frameborder= "0" style="border-radius: 8px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<div>
+							<iframe class="hero-section__map-address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.4511759054126!2d35.049569468004194!3d48.46705892041686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2c253eac565%3A0xe2c4787d366f1a14!2sDnepropetrovsk%20center%20of%20primary%20medical%20and%20sanitary%20help%20%23%204%20Out-patient%20clinic%20%23%201-2!5e0!3m2!1sen!2sua!4v1611704651712!5m2!1sen!2sua" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
@@ -183,20 +192,13 @@
 		<div class="container">
 			<div class="main-button-container">
 				<div class="main-button-container__button-list">
-					<div class="main-button-container__button-items-flex">				
-						<div>
-							<button class="main-button-container__link-action">Package Summery</button>	
-						</div>					
-						<div>
-							<button class="main-button-container__link-underline" aria-label="none"></button>
-						</div>
-					</div>				
-						<button class="main-button-container__link">Hotel Information</button>
-						<button class="main-button-container__link">Rooms</button>
-						<button class="main-button-container__link">Facilities & Activities</button>
-						<button class="main-button-container__link">Dining & Entertainment</button>
-						<button class="main-button-container__link">Reviews </button>
-						<button class="main-button-container__link">Questions & Answers</button>
+					<button class="main-button-container__button-action">Package Summery</button>	
+					<button class="main-button-container__button">Hotel Information</button>
+					<button class="main-button-container__button">Rooms</button>
+					<button class="main-button-container__button">Facilities & Activities</button>
+					<button class="main-button-container__button">Dining & Entertainment</button>
+					<button class="main-button-container__button">Reviews </button>
+					<button class="main-button-container__button">Questions & Answers</button>
 				</div>
 			</div>
 		</div>
@@ -451,7 +453,7 @@
 			<h2 class="other-package-text">OTHER PACKAGE</h2>
 			<div class="plain-list-hotel">
 				<div class="hotel-bluehaven-bg-container col-md-6 col-lg-4">
-					<button class="plain-list-hotel__button">Flash Offer</button>
+					<button class="plain-list-hotel__button" aria-label="flash offer">Flash Offer</button>
 				</div>
 				<div class="card-blue-haven col-md-6 col-lg-4">
 					<span class="card-blue-haven__ico-star">
@@ -491,7 +493,7 @@
 					</span>
 					<div class="price-button-container">
 						<span class="price-button-container__price">$ 8,500</span>
-						<button class="price-button-container__button">Book Now</button>
+						<button class="price-button-container__button" aria-label="book now">Book Now</button>
 					</div>
 				</div>
 				<!-- BELLE MARE CONTAINER  -->
@@ -524,14 +526,14 @@
 						</span>
 						<div class="price-button-container">
 							<span class="price-button-container__price">$ 3,000</span>
-							<button class="price-button-container__button">Book Now</button>
+							<button class="price-button-container__button" aria-label="book now">Book Now</button>
 						</div>
 					</div>
 				</div>
 				<!-- WHITE PALACE  -->
 				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
 					<div class="white-palace-bg-container">
-						<button class="hotel-belle-mare-container__button">flash Offer</button>
+						<button class="hotel-belle-mare-container__button" aria-label="flash offer">flash Offer</button>
 					</div>
 					<div class="hotel-belle-mare-container__item">
 						<h4 class="belle-mare-text">White Palace</h4>
@@ -558,14 +560,14 @@
 						</span>
 						<div class="price-button-container">
 							<span class="price-button-container__price">$ 9,500</span>
-							<button class="price-button-container__button">Book Now</button>
+							<button class="price-button-container__button" aria-label="book now">Book Now</button>
 						</div>
 					</div>
 				</div>
 				<!-- LUXURY PLACE  -->
 				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
 					<div class="luxury-place-bg-container">
-						<button class="hotel-belle-mare-container__button">flash Offer</button>
+						<button class="hotel-belle-mare-container__button" aria-label="flash offer">flash Offer</button>
 					</div>
 					<div class="hotel-belle-mare-container__item">
 						<h4 class="belle-mare-text">White Palace</h4>
@@ -592,14 +594,14 @@
 						</span>
 						<div class="price-button-container">
 							<span class="price-button-container__price">$ 2,500</span>
-							<button class="price-button-container__button">Book Now</button>
+							<button class="price-button-container__button" aria-label="book now">Book Now</button>
 						</div>
 					</div>
 				</div>
 				<!-- HOTEL FIVE STAR  -->
 				<div class="hotel-belle-mare-container col-md-6 col-lg-4">
 					<div class="five-star-bg-container">
-						<button class="hotel-belle-mare-container__button">flash Offer</button>
+						<button class="hotel-belle-mare-container__button" aria-label="flash offer">flash Offer</button>
 					</div>
 					<div class="hotel-belle-mare-container__item">
 						<h4 class="belle-mare-text">White Palace</h4>
@@ -626,12 +628,10 @@
 						</span>
 						<div class="price-button-container">
 							<span class="price-button-container__price">$ 3,500</span>
-							<button class="price-button-container__button">Book Now</button>
+							<button class="price-button-container__button" aria-label="book now">Book Now</button>
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 		</div>
 		<!-- WHAT PEOPLE THINGS ABOUT US  -->
@@ -639,7 +639,7 @@
 			<div class="container">
 				<h2 class="about-us-contnainer__h2-text">WHAT PEOPLE THINGS ABOUT US</h2>
 				<div class="reviews-container">
-					<img src="./images/megane-fox.png" alt="Photo Megane Fox" class="reviews-container__img">
+					<img src="./images/megane-fox.png" alt="Photo Megane Fox" class="reviews-container__img" loading="lazy">
 					<div class="people-name">Megane Fox</div>
 					<div class="reviews-date">Stayed 18 Nov, 2019</div>
 					<span class="about-us-contnainer__ico-star">
@@ -676,9 +676,9 @@
 					<div class="new-sletter-container__main-text">subscribe to our
 						<br><span class="fs-36">NEWSLETTER</span>
 					</div>
-					<form class="newsletter-container__form">
-						<input class="newsletter-container__input" type="text" placeholder="Your email address">
-						<button class="newsletter-container__form__button">Send</button>
+					<form class="newsletter-container__form" aria-label="form">
+						<input class="newsletter-container__input" type="text" placeholder="Your email address" aria-label="input">
+						<button class="newsletter-container__form__button" aria-label="send">Send</button>
 					</form>
 				</div>
 			</div>
@@ -692,23 +692,23 @@
 				<div class="row">
 					<div class="coriuos-container col-lg-3">
 						<h4 class="other-activities-container__h4-text">The curious corner of chamarel</h4>
-						<button class="other-activities-container__button">Book Now</button>
+						<button class="other-activities-container__button" aria-label="book now">Book Now</button>
 					</div>
 					<div class="gymkhana-container col-lg-3">
 						<h4 class="other-activities-container__h4-text">Gymkhana club golf course</h4>
-						<button class="other-activities-container__button">Book Now</button>
+						<button class="other-activities-container__button" aria-label="book now">Book Now</button>
 					</div>
 					<div class="tamarind-container col-lg-3">
 						<h4 class="other-activities-container__h4-text">Tamarind falls hiking
 							trip - full day							
 						</h4>
-						<button class="other-activities-container__button">Book Now</button>
+						<button class="other-activities-container__button" aria-label="book now">Book Now</button>
 					</div>
 					<div class="blue-marine-container col-lg-3">
 						<h4 class="other-activities-container__h4-text">The blue marine discovery
 							quest
 						</h4>
-						<button class="other-activities-container__button">Book Now</button>
+						<button class="other-activities-container__button" aria-label="book now">Book Now</button>
 					</div>
 				</div>
 			</div>
@@ -719,36 +719,36 @@
 			<div class="container">
 				<div class="plain-footer-container">
 					<div class="footer-logo-container">
-						<a href="#" class="footer-logo-container__link">
-							<img src="./images/logo-footer.png" alt="Logo">
+						<a href="#logo" class="footer-logo-container__link" aria-label="logo">
+							<img src="./images/logo-footer.png" alt="Logo" loading="lazy">
 						</a>
 					</div>
 					<div class="all-categories-container">
 						<h4 class="footer-h4-text">ALL CATEGORIES</h4>
 						<ul class="plain-footer-list">
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">All Deals</a>
+								<a href="#all deals" class="plain-footer__link" aria-label="all deals">All Deals</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Hotels</a>
+								<a href="#hotels" class="plain-footer__link" aria-label="hotels">Hotels</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Activities</a>
+								<a href="#activiries" class="plain-footer__link" aria-label="activities">Activities</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Spa Packages</a>
+								<a href="#spa-packages" class="plain-footer__link" aria-label="spa packages">Spa Packages</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Hotel Day Packages</a>
+								<a href="#hotel-day-packages" class="plain-footer__link" aria-label="hotel day packages">Hotel Day Packages</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Restaurants</a>
+								<a href="#restaurants" class="plain-footer__link" aria-label="restaurants">Restaurants</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Fitness</a>
+								<a href="#fitness" class="plain-footer__link" aria-label="fitness">Fitness</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Rodrigues</a>
+								<a href="#rodrigues" class="plain-footer__link" aria-label="rodrigues">Rodrigues</a>
 							</li>
 						</ul>
 					</div>
@@ -757,34 +757,34 @@
 						<h4 class="footer-h4-text">ADDITIONAL INFORMATION</h4>
 						<ul class="plain-footer-list">
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">About Us</a>
+								<a href="#about-us" class="plain-footer__link" aria-label="about us">About Us</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Contact Us</a>
+								<a href="#contact-us" class="plain-footer__link" aria-label="contact us">Contact Us</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">How does it work?</a>
+								<a href="#how-does-it-work" class="plain-footer__link" aria-label="how does it work">How does it work?</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Frequently Asked program</a>
+								<a href="#frequently" class="plain-footer__link" aria-label="frequently asked program">Frequently Asked program</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Deals.mu loyatly program</a>
+								<a href="#deals" class="plain-footer__link" aria-label="deaals.mu loyatly program">Deals.mu loyatly program</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Promote your Bisiness on BTP</a>
+								<a href="#promote" class="plain-footer__link" aria-label="promote your bissiness on btp">Promote your Bisiness on BTP</a>
 							</li>
 						</ul>
 						<div class="social-container-flex">
 							<h4 class="footer-h4__social-network-text">SOCIAL NETWORK</h4>
 							<div class="footer-ico-size">
-								<a href="" class="footer-ico-color footer-ico-padding">
+								<a href="https://facebook.com" class="footer-ico-color footer-ico-padding footer-ico-hover" aria-label="facebook">
 									<span class="icon-facebook"></span>
 								</a>
-								<a href="" class="footer-ico-color footer-ico-padding">
+								<a href="https://youtube.com" class="footer-ico-color footer-ico-padding footer-ico-hover" aria-label="youtube">
 									<span class="icon-youtube"></span>
 								</a>
-								<a href="" class="footer-ico-color footer-ico-padding">
+								<a href="https://instagram.com" class="footer-ico-color footer-ico-padding footer-ico-hover" aria-label="instagram">
 									<span class="icon-instagram"></span>
 								</a>
 							</div>
@@ -795,16 +795,16 @@
 						<h4 class="footer-h4-text">LEGAL INFORMATION</h4>
 						<ul class="plain-footer-list">
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Term & Conditions</a>
+								<a href="#term" class="plain-footer__link" aria-label="term & conditions">Term & Conditions</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Disclaimer</a>
+								<a href="#disclaimer" class="plain-footer__link" aria-label="diclaimer">Disclaimer</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Cancellation policy</a>
+								<a href="#cancellation" class="plain-footer__link" aria-label="cancellation policy">Cancellation policy</a>
 							</li>
 							<li class="plain-footer__item">
-								<a href="#" class="plain-footer__link">Privacy</a>
+								<a href="#privacy" class="plain-footer__link" aria-label="privacy">Privacy</a>
 							</li>
 						</ul>
 					</div>
@@ -813,7 +813,7 @@
 				<div class="row">
 					<address class="col-lg-6">
 						<div class="contact-details-container">
-							<h4 class="contact-details-container__h4-text">CONTACT DETAILS</h4>
+							<span class="contact-details-container__text">CONTACT DETAILS</span>
 							<p class="contact-details-container__p-text">
 								Feel free to contact us by phone, email or by our contact form
 							</p>
@@ -847,14 +847,14 @@
 					</address>
 					<div class="send-us-message-container col-lg-6">
 						<h4 class="send-us-message-container__h4-text">SEND US A NESSAGE</h4>
-						<form class="form-footer">
+						<form class="form-footer" aria-label="form">
 							<div class="col-lg-12 row col-md-8 input-footer-container">							
-								<input type="text" placeholder="Your Full Name*" class="form-footer__input-name">
-								<input type="text" placeholder="Phone Number*" class="form-footer__input-phone">
+								<input type="text" placeholder="Your Full Name*" class="form-footer__input-name" aria-label="input-name">
+								<input type="text" placeholder="Phone Number*" class="form-footer__input-phone" aria-label="input-phone">
 							</div>
-							<textarea name="text" rows="5" class="form-footer__textarea col-lg-12 col-md-8" placeholder="Message"></textarea>
+							<textarea name="text" rows="5" class="form-footer__textarea col-lg-12 col-md-8" placeholder="Message" aria-label=""></textarea>
 							<div class="fotter-button-flex col-lg-12 col-md-8">
-								<button class="form-footer__button row" type="submit">Send</button>
+								<button class="form-footer__button row" type="submit" aria-label="send">Send</button>
 								<div class=" text-required">* Required Fields</div>
 							</div>
 						</form>						
@@ -863,12 +863,12 @@
 				<div class="company-policy-container">
 					<div class="company-container-list">	
 						<div class="footer-container-link">
-							<a href="" class="company-policy-container__link">Declaimer</a>
-							<a href="" class="company-policy-container__link">Declaimer of use</a>
-							<a href="" class="company-policy-container__link">Cancellation policy</a>
+							<a href="#declaimer" class="company-policy-container__link" aria-label="declaimer">Declaimer</a>
+							<a href="#declaimer-of-use" class="company-policy-container__link" aria-label="declaimer of use">Declaimer of use</a>
+							<a href="#Cancellation-policy" class="company-policy-container__link" aria-label="cancellation policy">Cancellation policy</a>
 						</div>
 						<div class="paycard-container">
-							<img src="./images/pay-footer.png" alt="paycard">
+							<img src="./images/pay-footer.png" alt="paycard" loading="lazy">
 						</div>
 					</div>
 				</div>
