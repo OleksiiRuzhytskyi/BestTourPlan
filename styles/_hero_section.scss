@@ -104,13 +104,13 @@
 		justify-content: space-around;
 		padding-top: 30px;
 		@include media-breakpoint-down(md) {
-			justify-content: space-between;
+			justify-content: space-around;
 			padding-left: 10px;
 			padding-right: 10px;
 			margin-left: 0;
 		}
 		@include media-breakpoint-down(sm) {
-			justify-content: space-between;
+			justify-content: space-around;
 			padding-left: 0%;
 		}
 	}
@@ -232,12 +232,12 @@
 		background: $primary-color;
 		border-radius: 8px;
 		color: $white-text;
-		padding: 13px 65px;
+		padding: 13px 85px;
 		font-size: 14px;
-		margin-left: 45px;
+		margin-left: 30px;
 		margin-bottom: 25px;
 		@include media-breakpoint-down(lg) {
-			padding: 13px 30px;
+			padding: 10px 45px;
 			font-size: 10px;
 			margin-left: 15px;
 			margin-bottom: 15px;
