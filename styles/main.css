@@ -1866,12 +1866,14 @@ button {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 ul,
 li {
   text-decoration: none;
   list-style-type: none;
+  display: block;
 }
 
 .pt-20 {
@@ -2892,7 +2894,6 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 0;
   font-size: 14px;
   color: #333;
 }
@@ -2945,12 +2946,19 @@ li {
 
 .main-button-container__button-action {
   color: #EC1F46;
+  font-weight: 700;
   border-bottom: #EC1F46 solid;
+}
+
+.main-button-container__button {
+  color: #333;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
 }
 
 .main-button-container__button:hover {
   color: #EC1F46;
-  border-bottom: #EC1F46 solid;
+  border-color: #EC1F46;
 }
 
 .package-summary-container {
@@ -3015,7 +3023,7 @@ li {
   color: #fff;
   background-color: #333;
   border-radius: 50%;
-  font-size: 8px;
+  font-size: 10px;
   padding-left: 2px;
 }
 
@@ -3065,9 +3073,9 @@ li {
   color: #fff;
   background-color: #333;
   border-radius: 50px;
-  height: 12px;
+  height: 13px;
   width: 22px;
-  font-size: 8px;
+  font-size: 10px;
   margin-top: 5px;
   padding-left: 2px;
 }
@@ -3704,7 +3712,8 @@ li {
 
 .newsletter-container {
   background: url("../images/bg-newsletter.jpg");
-  max-width: 1440px;
+  max-width: 100%;
+  background-size: cover;
   text-align: center;
 }
 
@@ -3719,8 +3728,7 @@ li {
       justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 @media (max-width: 991.98px) {
@@ -3767,7 +3775,7 @@ li {
   font-size: 14px;
   padding-top: 17px;
   padding-bottom: 17px;
-  padding-right: 130px;
+  padding-right: 100px;
   padding-left: 30px;
   border-radius: 4px 0px 0px 4px;
   background: #fff;
@@ -4002,9 +4010,10 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 10px;
   }
 }
 
@@ -4169,7 +4178,7 @@ li {
 
 .form-footer {
   padding-top: 15px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .input-footer-container {
@@ -4182,23 +4191,24 @@ li {
 .form-footer__input-name {
   color: #BDBDBD;
   background: #fff;
-  width: 50%;
+  width: 49%;
   font-size: 12px;
   border-radius: 4px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 23px;
 }
 
 .form-footer__input-phone {
   color: #BDBDBD;
   background: #fff;
-  width: 50%;
+  width: 49%;
   font-size: 12px;
   border-radius: 4px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 23px;
+  margin-left: 10px;
 }
 
 .form-footer__textarea {

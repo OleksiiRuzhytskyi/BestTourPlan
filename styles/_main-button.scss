@@ -5,7 +5,6 @@
 .main-button-container__button-list {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 0;
 	font-size: 14px;
 	color: $gray-text;
 		@include media-breakpoint-down(md) {
@@ -37,11 +36,15 @@
 // }
 .main-button-container__button-action {
 	color: $primary-color;
+	font-weight: 700;
 	border-bottom: $primary-color solid;
 }
 .main-button-container__button {
+	color: $gray-text;
+	font-weight: 700;
+	border-bottom: 3px solid transparent;
 	&:hover {
 		color: $primary-color;
-	border-bottom: $primary-color solid;
+		border-color: $primary-color;
 	}
 }

@@ -1,6 +1,7 @@
 .newsletter-container {
 	background: url("../images/bg-newsletter.jpg");
-	max-width: 1440px;
+	max-width: 100%;
+	background-size: cover;
 	text-align: center;
 }
 .newsletter-container__flex {
@@ -9,13 +10,13 @@
 	justify-content: space-around;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	padding-right: 100px;
-	padding-left: 100px;
-		@include media-breakpoint-down(md) {
-			flex-direction: column;
-			padding-top: 50px;
-			padding-bottom: 50px;
-		}
+	// padding-right: 100px;
+	padding-left: 150px;
+	@include media-breakpoint-down(md) {
+		flex-direction: column;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 .new-sletter-container__main-text {
 	color: $white-text;
@@ -38,17 +39,17 @@
 	font-size: 14px;
 	padding-top: 17px;
 	padding-bottom: 17px;
-	padding-right: 130px;
+	padding-right: 100px;
 	padding-left: 30px;
 	border-radius: 4px 0px 0px 4px;
 	background: $white-text;
 	color: #bdb;
-		@include media-breakpoint-down(xs) {
-			padding-right: 20px;
-			padding-left: 20px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
+	@include media-breakpoint-down(xs) {
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 .newsletter-container__form__button {
 	padding-top: 20px;

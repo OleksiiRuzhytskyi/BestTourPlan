@@ -4,27 +4,27 @@
 .package-summary-container__h2-text {
 	color: $gray-text;
 	font-size: 24px;
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 .package-summary-container__package-highlights-text {
-  font-size: 14px;
-  color: $white-text;
-  background: $secondary-color;
-  padding-left: 24px;
-  padding-top: 15px;
+	font-size: 14px;
+	color: $white-text;
+	background: $secondary-color;
+	padding-left: 24px;
+	padding-top: 15px;
 	height: 50px;
 	width: 100%;
 }
 .plain-list {
-  display: grid;
+	display: grid;
 	grid-template-columns: 50% 50%;
 	font-size: 12px;
 	padding-top: 24px;
-		@include media-breakpoint-down(lg) {
-			font-size: 11px;
-		}
-		@include media-breakpoint-down (sm) {
-			font-size: 8px;
+	@include media-breakpoint-down(lg) {
+		font-size: 11px;
+	}
+	@include media-breakpoint-down (sm) {
+		font-size: 8px;
 	}
 	@include media-breakpoint-down (xs) {
 		display: flex;
@@ -39,15 +39,15 @@
 	color: $white-text;
 	background-color: $gray-text;
 	border-radius: 50%;
-	font-size: 8px;
+	font-size: 10px;
 	padding-left: 2px;
 }
 .package-summary-container__offer-details-text {
 	font-size: 14px;
-  color: $white-text;
-  background: $secondary-color;
-  padding-left: 24px;
-  padding-top: 15px;
+	color: $white-text;
+	background: $secondary-color;
+	padding-left: 24px;
+	padding-top: 15px;
 	height: 50px;
 	width: 100%;
 }
@@ -76,17 +76,17 @@
 	color: $white-text;
 	background-color: $gray-text;
 	border-radius: 50px;
-	height: 12px;
+	height: 13px;
 	width: 22px;
-	font-size: 8px;
+	font-size: 10px;
 	margin-top: 5px;
 	padding-left: 2px;
-		@include media-breakpoint-down (md) {
-			width: 18px;
-		}
-		@include media-breakpoint-down (sm) {
-			width: 30px;
-		}
+	@include media-breakpoint-down (md) {
+		width: 18px;
+	}
+	@include media-breakpoint-down (sm) {
+		width: 30px;
+	}
 }
 .plain-list-ico-calendar {
 	font-size: 15px;
@@ -109,10 +109,10 @@
 }
 .package-summery-details__h3-text {
 	font-size: 14px;
-  color: $white-text;
-  background: $secondary-color;
-  padding-left: 24px;
-  padding-top: 15px;
+	color: $white-text;
+	background: $secondary-color;
+	padding-left: 24px;
+	padding-top: 15px;
 	height: 50px;
 	width: 100%;
 }
@@ -130,11 +130,11 @@
 .package-summery-details__flex {
 	display: grid;
 	grid-template-columns: 33.33333% 33.33333% 33.33333%;
-		@include media-breakpoint-down(md) {
-			display: flex;
-			flex-wrap:wrap;
-		}
-		@include media-breakpoint-down(sm) {
-			flex-direction: column;
-		}
+	@include media-breakpoint-down(md) {
+		display: flex;
+		flex-wrap:wrap;
+	}
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+	}
 }
