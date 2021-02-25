@@ -18,11 +18,12 @@
 	height: 500px;
 	background-size: cover;
 	@include media-breakpoint-down(sm) {
-		width: 70%;
-		border-radius: 4px;
+		width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 70%;
+		width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
 }
 .plain-list-hotel__button {
@@ -47,7 +48,7 @@
 		justify-content: center;
 	}
 	@include media-breakpoint-down(xs) {
-		margin-left: 70px;
+		// margin-left: 70px;
 	}
 }
 .card-blue-haven {
@@ -60,11 +61,12 @@
 	padding-right: 20px;
 	max-height: 500px;
 	@include media-breakpoint-down(sm) {
-		width: 70%;
-		border-radius: 8px;
+		width: 100%;
+		border-radius: 0px 0px 8px 8px;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 75%;
+		width: 100%;
+		border-radius: 0px 0px 8px 8px;
 	}
 }
 .card-blue-haven__ico-star {
@@ -199,15 +201,16 @@
 }
 .hotel-belle-mare-bg-container {
 	background-image: url("../images/belle-mare.png");
+	background-size: cover;
 	width: 100%;
 	height: 250px;
 	position: relative;
 	border-radius: 8px 8px 0px 0px;		
 		@include media-breakpoint-down(sm) {
-			width: 70%;
+			width: 100%;
 		}
 		@include media-breakpoint-down(xs) {
-			width: 75%;
+			width: 100%;
 		}
 }
 .hotel-belle-mare-container__button {
@@ -230,10 +233,10 @@
 	padding-bottom: 25px;
 	height: 250px;
 	@include media-breakpoint-down(sm) {
-		width: 70%;
+		width: 100%;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 75%;
+		width: 100%;
 		height: 100%;
 	}
 }
@@ -258,6 +261,7 @@
 // WHITE PALACE CONTAINER 
 .white-palace-bg-container {
 	background: url("../images/white-palace.png");
+	background-size: cover;
 	width: 100%;
 	height: 250px;
 	position: relative;
@@ -267,39 +271,41 @@
 		margin-top: 0px;
 	}
 	@include media-breakpoint-down(sm) {
-		width: 70%;
+		width: 100%;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 75%;
+		width: 100%;
 	}
 }
 // LUXURY PLACE 
 .luxury-place-bg-container {
 	background: url("../images/luxury-place.png");
+	background-size: cover;
 	width: 100%;
 	height: 250px;
 	position: relative;
 	border-radius: 8px 8px 0px 0px;
 	margin-top: 30px;
 	@include media-breakpoint-down(sm) {
-		width: 70%;
+		width: 100%;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 75%;
+		width: 100%;
 	}
 }
 // HOTEL FIVE STAR 
 .five-star-bg-container {
 	background: url("../images/five-star.png");
+	background-size: cover;
 	width: 100%;
 	height: 250px;
 	position: relative;
 	border-radius: 8px 8px 0px 0px;
 	margin-top: 30px;
 	@include media-breakpoint-down(sm) {
-		width: 70%;
+		width: 100%;
 	}
 	@include media-breakpoint-down(xs) {
-		width: 75%;
+		width: 100%;
 	}
 }

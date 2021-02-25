@@ -9,18 +9,19 @@
 	align-items: flex-start;
 		@include media-breakpoint-down(md) {
 			flex-wrap: wrap;
-		}
-		@include media-breakpoint-down(sm) {
-			flex-direction: column;
+			margin-top: 50px;
 			justify-content: flex-start;
-			padding-left: 10px;
 		}
 }
 .footer-logo-container {
 	padding-top: 60px;
-	@include media-breakpoint-down(sm) {
+	@include media-breakpoint-down(lg) {
 		padding-bottom: 50px;
 		padding-left: 35px;
+	}
+	@include media-breakpoint-down(lg) {
+		display: none;
+		padding-left: 0;
 	}
 }
 .footer-h4-text {
@@ -28,6 +29,14 @@
 	font-size: 18px;
 	padding-left: 40px;
 	padding-bottom: 20px;
+}
+.additional-information-container {
+	@include media-breakpoint-down(md) {
+		padding-left: 100px;
+	}
+	@include media-breakpoint-down(sm) {
+		padding-left: 0px;
+	}
 }
 .plain-footer__link {
 	font-size: 14px;
@@ -42,9 +51,22 @@
 	align-items: flex-start;
 	padding-left: 40px;
 	padding-top: 10px;
+	// @include media-breakpoint-down(lg) {
+	// 	flex-direction: column;
+	// }
+	@include media-breakpoint-down(md) {
+		padding-top: 30px;
+	}
 		@include media-breakpoint-down(xs) {
-			flex-direction: column;;
+			flex-direction: column;
 		}
+}
+.ico-footer-ico {
+	font-size: 25px;
+	@include media-breakpoint-down(xs) {
+		font-size: 35px;
+		text-align: center;
+	}
 }
 .footer-ico-hover {
 &:hover {
@@ -57,10 +79,6 @@
 }
 .legal-informaion-container {
 	@include media-breakpoint-down(md) {
-		padding-left: 150px;
-	}
-	@include media-breakpoint-down(sm) {
-		padding-left: 0;
 		padding-top: 30px;
 	}
 }
@@ -148,6 +166,12 @@
 	padding-top: 16px;
 	padding-bottom: 16px;
 	padding-left: 23px;
+	@include media-breakpoint-down(lg) {
+		width: 48%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+	}
 }
 .form-footer__input-phone {
 	color: #BDBDBD;
@@ -159,6 +183,14 @@
 	padding-bottom: 16px;
 	padding-left: 23px;
 	margin-left: 10px;
+	@include media-breakpoint-down(lg) {
+		width: 49%;
+	}
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0;
+	}
 }
 .form-footer__textarea {
 	border-radius: 4px;
@@ -166,6 +198,9 @@
 	padding-top: 18px;
 	padding-left: 23px;
 	overflow: auto;
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+	}
 }
 .form-footer__button {
 	border-radius: 4px;

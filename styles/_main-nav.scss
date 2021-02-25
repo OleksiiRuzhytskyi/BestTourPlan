@@ -1,6 +1,9 @@
 .main-nav-container {
   background: $secondary-color;
 	margin-top: 45px;
+	@include media-breakpoint-up(xs) {
+		text-align: center;
+		}
 	@include media-breakpoint-up(sm) {
     height: 40px;
 	}
@@ -37,11 +40,7 @@
 	}
 }
 .main-nav-container__nav-item {
-	@include media-breakpoint-up(xs) {
-		justify-content: center;
-		padding: 5px;
-		}
-  @include media-breakpoint-up(sm) {
+	@include media-breakpoint-up(sm) {
 	display: flex;
 	justify-content: space-around;
 	padding: 5px;
@@ -55,4 +54,8 @@
 		padding-top: 22px;
 		padding-right: 35px;
 	}
+	@include media-breakpoint-up(xs) {
+		justify-content: center;
+		padding: 5px;
+		}
 }
